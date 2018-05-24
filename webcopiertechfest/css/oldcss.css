@@ -1,0 +1,61 @@
+
+
+body{
+		overflow: hidden;
+		background-color: black;
+	}
+	
+
+	
+
+#particles-js{
+	display: none;
+}
+
+	
+
+
+
+
+/*mobile landscape ends */
+
+@media (max-width:62em) and (orientation: landscape) {
+
+body{
+	background-color: black;
+}
+.overlay{font-size: 4.5vh}
+
+
+
+/*
+.demo-3 .box{
+
+}*/
+
+
+
+
+
+}
+
+/*mobile landscape ends */
+
+
+/*lapi style starts*/
+
+@media (min-width:62em) {
+
+		body{
+			background:black;
+			/*background-image: url(../img/eventFinal/bg.jpg);*/
+		}
+		#particles-js{
+		position: fixed;width: 100%;height: 100vh;display: block;		
+		}
+	
+
+}
+
+/*lapi style ends*/
+

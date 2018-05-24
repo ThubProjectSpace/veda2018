@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<!-- Copied from http://VEDA.com/aboutus.html by Cyotek WebCopy 1.4.0.469, 21 May 2018, 11:48:05 -->
+<head>
+<title>About Us</title>
+<link rel="icon" type="image/png" href="favicon.ico">
+<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans'>
+
+      <link rel="stylesheet" href="css/aboutusstyle1.css">
+<link rel="stylesheet" href="css/aboutusstyle.css">
+<link rel="stylesheet" href="css/style1.css">
+      <link rel="stylesheet" href="css/style2.css">
+<script src="http://www.youtube.com/iframe_api"></script>
+<style>
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #F7743E;
+  min-height: 400px;
+  z-index:100000000;
+}
+
+
+
+#social_links ul li img{
+	width: 100%;
+        
+}
+#social_links{
+    position: fixed;
+    z-index: 10000;
+    left:42%;
+    top: 0px;
+    display: flex;
+    width:16%;
+    
+}
+#social_links  li{
+       width: 70%;
+       height:80px;
+    overflow: hidden;
+    list-style: none;
+}
+#social_links ul{
+	    width: 100%;
+    height: 60%;
+    top: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    bottom: 0px;
+    margin: auto;
+    padding-left:0px;
+}
+
+#social_links  li::before{
+    content: '';
+    position: absolute;
+    
+    background-size: 100%;
+    left: -10px;
+    background-position: 0px 28px;
+        width: 80px;
+        z-index: -1;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+.container{
+position: absolute;
+bottom:40px;
+left:60px;
+}
+
+@media screen and (max-width: 885px) {
+   #social_links {
+	    width: 30%;
+            left:35%;
+                 }
+         svg{
+          height:300px;
+       }
+              }
+@media screen and (max-width: 800px) {
+   #social_links {
+	    width: 30%;
+            left:35%;
+                 }
+         svg{
+          height:240px;
+       }
+              }
+@media screen and (max-width: 480px) {
+   #social_links {
+	    width: 40%;
+            left:30%;
+                 }
+         svg{
+          height:200px;
+          
+       }
+              }
+@media screen and (max-width: 320px) {
+   #social_links {
+	    width: 50%;
+            left:25%;
+                 }
+         svg{
+          height:150px;
+          
+       }
+              }
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #F7743E;
+  
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #080808;
+  
+}
+body, html {
+  width:100%;
+  overflow-x:hidden;
+  
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #fff;
+  background: #2c2a2a;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    height: 100%;
+  z-index:0;
+  position: relative;
+  opacity: 1;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/bg4.jpg");
+  min-height: 100%;
+  padding-top:8%;
+  padding-bottom:8%;
+  overflow:hidden;
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body class="scroll">
+ <div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.htm" data-content="The beginning">Home</a></li>
+      <li><a href="aboutus.html" data-content="Curious?">About</a></li>
+      <li><a href="events.html" data-content="Good Luck Have Fun">Events</a></li>
+      <li><a href="#" data-content="Only the finest">Gallery</a></li>
+      <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+	
+	
+<audio id="sound1" src="images/clk.wav" preload="auto"></audio>	
+<div class="open-overlay" onclick="document.getElementById('sound1').play();" style="position:fixed">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+<div id="social_links">
+	     <ul>
+	     	<li><a target='_blank' class="fb" target="_blank" href="https://www.facebook.com/VEDA/"><img src="images/fb.png"></a></li>
+	     	<li><a target='_blank' class="gp" target="_blank" href="https://www.linkedin.com/in/VEDA-nit-nagaland-800865113"><img src="images/link.png"></a></li>
+	     	<li><a target='_blank' class="yt" target="_blank" href="https://www.youtube.com/VEDA/"><img src="images/youtube.png"></a></li>
+	     	<li> <a target='_blank' class="tw" target="_blank" href="https://twitter.com/VEDA"><img src="images/twitter.png"></a></li>
+	     	<li><a target='_blank' class="ln" target="_blank" href="https://www.instagram.com/VEDA_/"><img src="images/instagram.png"></a></li>
+	     </ul>
+	   </div>
+ <div class="wrapper">
+ 
+
+<!-- /.card-event-wrapper -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/aboutus.js"></script>  
+</div>
+
+
+
+
+
+
+
+  <div class="arrow animated bounce" style="position:fixed;"></div>
+
+<div class="footer">
+
+
+<h5>Media Partners</h5>
+<div class="sponbox">
+<a href="http://morungexpress.com" target='_blank'><img src="images/spon-a.png" style="width:231px;height:60px;"></a>
+<a href="http://www.easternmirrornagaland.com" target='_blank'><img src="images/spon-b.png" style="width:231px;height:60px;"></a>
+<a href="http://www.nagalandpost.com" target='_blank'><img src="images/spon-c.png" style="width:231px;height:45px;"></a><a href="https://www.banyan.ai/" target='_blank'><img src="images/spon-d.png" style="width:px;height:45px;"></a>
+<div>
+<h6 style="font-family:'Work Sans';font-weight:200;">&copy; VEDA 2018. All rights reserved.&nbsp;&nbsp;&nbsp;<a href="https://nitnagaland.ac.in/" target="_blank" style="color:white;">nitnagaland.ac.in</a>&nbsp;&nbsp;&nbsp;Site designed by:Manish Singh & Sanjay Chhabarwal</h6>
+
+</div>
+</div>
+</div></body>
+<!-- Copied from http://VEDA.com/aboutus.html by Cyotek WebCopy 1.4.0.469, 21 May 2018, 11:48:05 -->
+</html>
+<script>
+window.onload = function () { $('.loader').delay(10).fadeOut(); }
+ 
+</script>
+ 
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index1.js"></script>
+
+<script src="js/jquery.scrollify.js"></script>
+<script src="js/mainabout.js"></script>
+<script src="js/aboutus1.js"></script>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>VEDA|2K17</title>
+    <link rel="stylesheet" href="../../assets/libs/materialize/css/materialize.min.css">
+    <link href="../../assets/stylesheets/event.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../assets/libs/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../../assets/scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../../assets/scripts/jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="../../assets/scripts/jquery.horizonScroll.js"></script>
+</head>
+
+<body>
+    <header data-role="header" id="header">
+        <navbar class="menu">
+            <ul>
+
+                <li>
+                    <a href="../home.html#section-event"><span>EVENTS</span></a>
+                </li>
+                <li>
+                    <a href="../events.php#section-events"><span>DIGI EVENTS</span></a>
+                </li>
+
+                <li>
+                    <a href="../home.html#section-register"><span>REGISTER</span></a>
+                </li>
+            </ul>
+        </navbar>
+    </header>
+
+    <!--
+    <div class="horizon-prev"><img src="images/l-arrow.png"></div>
+    <div class="horizon-next"><img src="images/r-arrow.png"></div>-->
+
+
+
+    <section data-role="section" id="section-section2">
+        <div class="row" id="event_description">
+            <div class="col s6 m6 l6">
+                <div class="card ">
+                    <div class="card-content black-text">
+                        <span class="card-title">WEB DESIGN</span>
+                        <hr>
+                        <h6><b>OVERVIEW:</b></h6>
+                        <p>Web design is similar (in a very simplistic way) to traditional print publishing. Every website is an information display container, just as a book; and every Web page is like the page in a book. However, web design uses a framework based on digital code and display technology to construct and maintain an environment to distribute information in multiple formats. Taken to its fullest potential, web design is undoubtedly the most sophisticated and increasingly complex method to support communication in today’s world.
+
+                        </p>
+                        <h6><b>Rules & Regulations:</b></h6>
+                        <li>Participants can participate either in group or an individual</li>
+                        <li>Maximum number of participants is 3</li>
+                        <li>Time duration: 3 hours</li>
+                        <li>Designing can be done by using HTML/Flash/Photoshop/PHP</li>
+                        <li>Should support Chrome/Mozilla/Internet explorer</li>
+                        <li>All softwares and images are provided by the committee itself</li>
+                        <li>Topics are given by the committee on the spot 10 mins before commencement of the contest.</li>
+                        <li>Dream weaver software is not allowed</li>
+                        <li>Use decent layouts</li>
+                        <li>Avoid the usage of frames except iframes.</li>
+                        <li>Maintain consistency throughout the website.</li>
+                        <li>Every new page should be opened with in the same page.</li>
+                        <li>Web page should be content centric</li>
+                        <li>Pages should load within 30 seconds including all graphical elements.</li>
+                        <p><b>Registeration fees :</b> Rs. 200 per head.</p>
+                        <p><b>Mail-id to which entries to be sent :</b> webdesign_digi16@aec.edu.in</p>
+                        <p><b>Last date for receiving entries:</b>25-09-2016 </p>
+                        <p><b>Shortlisting of Entries and Intimation :</b>27-09-2016</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s6 m6 l6">
+                <div class="card ">
+                    <div class="card-content black-text">
+                        <span class="card-title">Co-ordinators</span>
+                        <hr>
+                        <p><b>Faculty Co-ordinators:</b><br> V. Chandra Sekhara Rao (faculty) | 9010987771 | chandrasekhara_cse@acoe.edu.in <br> S.S.R.K.M.Gupta | 9490087528 | gupta_ssrkm@yahoo.co.in <br> B.Santhoshi | 7702434350 | santoo.bolisetti@gmail.com <br> S.V.V.D.Jagadeesh | 9963831545 | jagadeesh.siddanathi@aec.edu.in <br> G.Siva Sankar | 9652960594 | sivashankar.g@aec.edu.in <br>
+
+                        </p><br><br>
+                        <p><b>Student Co-ordinators:</b><br> L. Aruna | 8374269206 | lokavarapuaruna@gmail.com <br> M.L.S.Sowmya | 9966629509 | <br> V.S.L.Sarada | 8341281328 | <br> Vadapalli Harsha Vardan | 8790989398 | <br> Nemala Nikitha | 8985017299 | <br>
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col s6 m6 l6">
+                <div class="card ">
+                    <div class="card-content black-text">
+                        <span class="card-title">RELATED EVENTS</span>
+                        <hr>
+                        <p><a href="#">Paper-Presentation</a> <br> <a href="#">Project-Presentation</a> <br><a href="#">Poster-Presentation</a><br><a href="#">Code-Debugging</a><br><a href="#">Technical-Quiz</a><br><a href="#">System-Assembling</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer data-role="footer" id="footer"></footer>
+
+    <script type="text/javascript">
+        // By default, swipe is enabled.
+        $('section').horizon();
+
+        // If you do not want to include another plugin, TouchSwipe, you can set it to false in the default options by passing in the option as false.
+        //$('section').horizon({swipe: false});
+
+        $(document).on('click', '.go-to-2', function() {
+            $(document).horizon('scrollTo', 'section-section2');
+        });
+
+    </script>
+
+</body>
+
+</html>

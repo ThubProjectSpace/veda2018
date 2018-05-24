@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>ADITYA</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Bootstrap Core JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        
+                        <div class="panel-group">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title text-center">
+                      <a data-toggle="collapse" href="#collapse1">CLICK HERE FOR ROUTE MAP DESCRIPTION</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p class="head"></p>  
+                        
+                        <p>
+                            The campus is located at Surampalem, East Godavari District of Andhra Pradesh equidistant from Rajahmundry and Kakinada, the two major cities of the District. The nearest airport to the campus is Rajahmundry Airport. The campus is 35K.M. from Rajahmundry Airport. Plenty of taxis are available at the Airport to reach the campus. It is approximately one hour drive from airport. The fare for the taxi is approximately 500 Indian rupees.
+                        </p>
+                        
+                        <p class="head">From Visakhapatnam (Vizag):</p>
+                        
+                        <p>
+                            Vizag a metro Politian city of Andhra Pradesh too has a major airport named Indhira Gandhi Airport. Vizag is approximately 170 K.M. from the campus. Upon arrival at the air port transfer to the bus terminal. At the bus terminal catch a bus to Kakinada. Alight the bus at Kakinada bus stop. At Kakinada bus stop board a bus that proceeds to Rajahmundry and alight the bus at Surampalem, Aditya campus which is en route.
+                            <br><br>
+                            From Vizag Train facility is also available to reach the campus. Any train from vaizag that goes to Vijayawada, another major city of Andhra Pradesh stops at Samalkot, the nearest railway station to campus.
+                        </p>
+                        
+                        <p class="head">From Vijayawada:</p>
+                        
+                        <p>
+                            Vijayawada Airport is 170 K.M. from the campus. From the Airport bus/ taxi/auto are available to Vijayawada Central Bus station. There are number of Non-Stop busses plying between Vijayawada and Rajahmundry. Upon arrival at Rajahmundry bus station board one of the busses plying between Rajahmundry and Kakinada .Enroute alight the bus at Surampalem, Aditya campus. There is also a train route from Vijayawada. Any train from Vijayawada that goes to Vizag will stop at Samalkot Junction, the nearest Railway Station to campus.
+                        </p>
+                        
+                        <p class="head">From Samalkot:</p>
+                        
+                        <p>
+                           Samalkot, 15 K.M. from the campus, is on the main railway line between Chennai and Kolkata. Many busses that move to Rajahmundry have a halt at the Samalkot Bus terminal which is nearby the railway station. Board one of the busses and alight at Surampalem, Aditya campus which is enroute.
+                        </p>
+                        
+                        <br>
+                        <center>
+                        <div class="centered">
+                            <img src="route_map_thumb.jpg">
+                        </div>
+                        </center>
+                    </div>
+                    
+                    <div class="panel-footer">
+                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container">
+                <div id="googleMap"></div>
+                    <!-- Add Google Maps -->
+                    <script src="https://maps.googleapis.com/maps/api/js"></script>
+                    <script>
+                        var myCenter = new google.maps.LatLng(17.0897056,82.0657283);
+
+                        function initialize() {
+                        var mapProp = {
+                        center:myCenter,
+                        zoom:15,
+                        scrollwheel:false,
+                        draggable:false,
+                        mapTypeId:google.maps.MapTypeId.ROADMAP
+                        };
+
+                        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+                        var marker = new google.maps.Marker({
+                        position:myCenter,
+                        });
+
+                        marker.setMap(map);
+                        }
+
+                        google.maps.event.addDomListener(window, 'load', initialize);
+                    </script>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+    </body>
+</html>

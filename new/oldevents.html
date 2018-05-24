@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<!-- Copied from http://VEDA.com/events.html by Cyotek WebCopy 1.4.0.469, 21 May 2018, 11:48:05 -->
+
+<head>
+	<meta charset="UTF-8">
+<title>Events</title>
+<link rel="icon" type="image/ico" href="favicon.ico">
+		
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Neuton|Oswald'>
+  
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	
+      <link rel="stylesheet" href="css/eventstyle.css">
+      <link rel="stylesheet" href="css/style1.css">
+      <link rel="stylesheet" href="css/style2.css">
+<style>
+
+.loader {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #FE4F55;
+  min-height: 400px;
+  z-index:100000000;
+}
+body {
+  background-color: #2c2a2a;
+  width:100%;
+  height:100%;
+  overflow-x:hidden;
+}
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: #FE4F55;
+  
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+.contain{
+	position:static;
+}
+
+
+#social_links ul li img{
+	width: 100%;
+        
+}
+#social_links{
+    position: fixed;
+    z-index: 10000;
+    left:42%;
+    top: 0px;
+    display: flex;
+    width:16%;
+    
+}
+#social_links  li{
+       width: 70%;
+       height:80px;
+    overflow: hidden;
+    list-style: none;
+}
+#social_links ul{
+	    width: 100%;
+    height: 60%;
+    top: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    bottom: 0px;
+    margin: auto;
+    padding-left:0px;
+}
+
+#social_links  li::before{
+    content: '';
+    position: absolute;
+    
+    background-size: 100%;
+    left: -10px;
+    background-position: 0px 28px;
+        width: 80px;
+        z-index: -1;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+.container{
+position: absolute;
+bottom:40px;
+left:60px;
+}
+
+@media screen and (max-width: 885px) {
+   #social_links {
+	    width: 30%;
+            left:35%;
+                 }
+         svg{
+          height:300px;
+       }
+              }
+@media screen and (max-width: 800px) {
+   #social_links {
+	    width: 30%;
+            left:35%;
+                 }
+         svg{
+          height:240px;
+       }
+              }
+@media screen and (max-width: 480px) {
+   #social_links {
+	    width: 40%;
+            left:30%;
+                 }
+         svg{
+          height:200px;
+          
+       }
+              }
+@media screen and (max-width: 320px) {
+   #social_links {
+	    width: 50%;
+            left:25%;
+                 }
+         svg{
+          height:150px;
+       }
+              }
+
+p {
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+ 
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 20%;
+ 
+ 
+}
+p span {
+  font: 400 2.5em/1 "Oswald", sans-serif;
+  
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+ 
+  background: url(images/animated_text_fill.png) repeat-y;
+  -webkit-background-clip: text;
+  
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+ 
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+</style>
+<body class="scroll">
+<div class="wrapper" style="background:#FE4F55;background-size:100%;">
+
+
+ <div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html" data-content="The beginning">Home</a></li>
+      <li><a href="aboutus.html" data-content="Curious?">About</a></li>
+      <li><a href="events.html" data-content="Good Luck Have Fun">Events</a></li>
+      <li><a href="#" data-content="Only the finest">Gallery</a></li>
+      <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+	
+	
+<audio id="sound1" src="images/clk.wav" preload="auto"></audio>	
+<div class="open-overlay" onclick="document.getElementById('sound1').play();">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+<div id="social_links">
+	     <ul>
+	     	<li><a target='_blank' class="fb" target="_blank" href="#"><img src="images/fb.png"></a></li>
+	     	<li><a target='_blank' class="gp" target="_blank" href="#"><img src="images/link.png"></a></li>
+	     	<li><a target='_blank' class="yt" target="_blank" href="#"><img src="images/youtube.png"></a></li>
+	     	<li> <a target='_blank' class="tw" target="_blank" href="#"><img src="images/twitter.png"></a></li>
+	     	<li><a target='_blank' class="ln" target="_blank" href="#"><img src="images/instagram.png"></a></li>
+	     </ul>
+	   </div>
+
+  <div class="arrow animated bounce"></div>
+</div>
+<div class="footer">
+
+<h5>Media Partners</h5>
+<div class="sponbox">
+<a href="#" target='_blank'><img src="images/spon-a.png" style="width:231px;height:60px;"></a>
+<a href="#" target='_blank'><img src="images/spon-b.png" style="width:231px;height:60px;"></a>
+<a href="#" target='_blank'><img src="images/spon-c.png" style="width:231px;height:45px;"></a><a href="https://www.banyan.ai/" target='_blank'><img src="images/spon-d.png" style="width:px;height:45px;"></a>
+<div>
+<h6 style="font-family:'Work Sans';font-weight:200;">&copy; VEDA 2018. All rights reserved.&nbsp;&nbsp;&nbsp;<a href="#" target="_blank" style="color:white;"></a>&nbsp;&nbsp;&nbsp;Site designed by:Technical Hub</h6>
+
+</div>
+</div></div></body>
+</head><!-- Copied from http://VEDA.com/events.html by Cyotek WebCopy 1.4.0.469, 21 May 2018, 11:48:05 -->
+</html>
+
+<script>
+window.onload = function () { $('.loader').delay(1000).fadeOut(); }
+
+  
+</script>
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/eventjs.js"></script>
+    <script src="js/index1.js"></script>
