@@ -113,6 +113,7 @@ include("auth.php");
                 <?php
                 $user=$_SESSION['username'];
                 ?>
+                <br>
         <div class="content">
                     <div class="container-fluid">
                         <div class="row">

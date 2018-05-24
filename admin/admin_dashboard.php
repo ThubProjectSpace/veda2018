@@ -53,17 +53,23 @@ require('db.php');
 
         <style>
             #bg1 {
-                background-color: #4CAF50;
+                background-color: rebeccapurple;
                 border-radius: 5px;
                 color: white;
-                padding: 15px 32px;
+                padding: 15px 40px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
                 font-size: 16px;
                 margin: 4px 2px;
+                                box-shadow: 2px 2px 2px 2px grey;
+
             }
 
+            #wellone{
+                box-shadow: 2px 2px 2px 2px grey;
+                
+            }
         </style>
     </head>
 
@@ -146,7 +152,7 @@ require('db.php');
                 $result = mysqli_query($con, $query);
 
                 while ($fetch = mysqli_fetch_array($result)) { ?>
-                                <div class="row well">
+                                <div class="row well" id="wellone">
                                     <center>
                                         <h3><strong><span id="bg1"><?php echo ucfirst($fetch['username']); ?></span></strong></h3>
                                     </center>
@@ -164,7 +170,7 @@ require('db.php');
                                 $numrows = mysqli_num_rows($stu_result);
                                 ?>
                                         <center>
-                                            <div class="col-md-3" style="margin:30px;">
+                                            <div class="col-md-3" id="wellone" style="margin:30px;">
                                                 <div class="col-md-4 r3_counter_box pull-left">
                                                     <i class="ti ti-package fa-2x icon-rounded animated jello"></i>
                                                 </div>

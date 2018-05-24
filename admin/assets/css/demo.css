@@ -82,7 +82,7 @@ table th{
 .col-md-3,.col-md-2{
 	min-height: 150px;
     background: #ffffff;
-    border: 1px solid #888;
+    border: 1px solid blue;
     border-radius: 6px;
     padding: 15px;
     margin: 0px;
